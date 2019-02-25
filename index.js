@@ -29,8 +29,11 @@ function viewCart() {
         if(i == cart.length-1){
           message += ".";
         }
-        else{
+        else if(i == cart.length-2){
           message += ", and ";
+        }
+        else{
+          message += ", ";
         }
     }
     
