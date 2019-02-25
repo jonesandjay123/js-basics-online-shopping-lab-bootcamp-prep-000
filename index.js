@@ -21,7 +21,8 @@ function viewCart() {
   // write your code here
   var message = "";
   if(image_array.length > 0){
-    message = "Your shopping cart is empty.";
+    message = "In your cart, you have ";
+    
   }
   else{
     message = "Your shopping cart is empty.";
