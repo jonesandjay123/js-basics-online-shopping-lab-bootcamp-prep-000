@@ -19,10 +19,14 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  if(){
+  var message = "";
+  if(image_array.length > 0){
     
   }
-  var message = "";
+  else{
+    message = "";
+  }
+  
 }
 
 function total() {
