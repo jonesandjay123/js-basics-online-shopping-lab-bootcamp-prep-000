@@ -20,7 +20,7 @@ function addToCart(item) {
 function viewCart() {
   // write your code here
   var message = "";
-  if(image_array.length > 0){
+  if(cart.length > 0){
     message = "In your cart, you have ";
     for (var i = 0; i < cart.length; i++) {
         var itemName = cart[i].itemName;
