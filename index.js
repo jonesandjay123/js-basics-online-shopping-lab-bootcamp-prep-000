@@ -22,6 +22,9 @@ function viewCart() {
   var message = "";
   if(image_array.length > 0){
     message = "In your cart, you have ";
+    for (var i = 0; i < cart; i++) {
+        var itemName = cart[i].itemName;
+    }
     
   }
   else{
