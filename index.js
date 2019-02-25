@@ -45,7 +45,12 @@ function viewCart() {
 
 function total() {
   // write your code here
+  var numbers = 0;
   
+  if(cart.length > 0){
+    numbers = cart.length;
+  }
+  return numbers;
 }
 
 function removeFromCart(item) {
