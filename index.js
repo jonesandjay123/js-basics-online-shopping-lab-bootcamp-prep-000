@@ -58,9 +58,20 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   var indexOf = 0;
+  var found = false;
   if(cart.length > 0){
     for (var i = 0; i < cart.length; i++) {
-        price += cart[i].itemName;
+        if(cart[i].itemName == item)
+        {
+          indexOf = i;
+          found = true;
+        }
+    }
+    if(found){
+      cart.sp
+    }
+    else{
+      
     }
   }
 }
