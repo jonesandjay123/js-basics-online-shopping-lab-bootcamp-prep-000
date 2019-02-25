@@ -27,10 +27,10 @@ function viewCart() {
         var itemPrice = cart[i].itemPrice;
         message += itemName + " at $"+itemPrice;
         if(i == cart.length-1){
-          message += "."
+          message += ".";
         }
         else{
-          message += ","
+          message += ", and";
         }
     }
     
