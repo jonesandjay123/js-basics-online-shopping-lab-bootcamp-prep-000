@@ -24,6 +24,8 @@ function viewCart() {
     message = "In your cart, you have ";
     for (var i = 0; i < cart; i++) {
         var itemName = cart[i].itemName;
+        var itemPrice = cart[i].itemPrice;
+        message += itemName + " at $"+itemPrice
     }
     
   }
