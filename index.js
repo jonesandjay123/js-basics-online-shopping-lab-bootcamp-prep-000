@@ -60,7 +60,7 @@ function removeFromCart(item) {
   var indexOf = 0;
   if(cart.length > 0){
     for (var i = 0; i < cart.length; i++) {
-        price += cart[i].itemPrice;
+        price += cart[i].itemName;
     }
   }
 }
