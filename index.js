@@ -21,10 +21,10 @@ function viewCart() {
   // write your code here
   var message = "";
   if(image_array.length > 0){
-    
+    message = "Your shopping cart is empty.";
   }
   else{
-    message = "";
+    message = "Your shopping cart is empty.";
   }
   
 }
