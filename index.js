@@ -19,6 +19,10 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
+  if(){
+    
+  }
+  var message = "";
 }
 
 function total() {
