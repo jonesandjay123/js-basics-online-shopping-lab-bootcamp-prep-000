@@ -57,8 +57,11 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  if(){
-    
+  var indexOf = 0;
+  if(cart.length > 0){
+    for (var i = 0; i < cart.length; i++) {
+        price += cart[i].itemPrice;
+    }
   }
 }
 
