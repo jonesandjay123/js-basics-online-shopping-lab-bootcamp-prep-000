@@ -26,11 +26,11 @@ function viewCart() {
         var itemName = cart[i].itemName;
         var itemPrice = cart[i].itemPrice;
         message += itemName + " at $"+itemPrice;
-        if(){
-          
+        if(i == cart.length-1){
+          message += "."
         }
         else{
-          
+          message += ","
         }
     }
     
@@ -38,7 +38,7 @@ function viewCart() {
   else{
     message = "Your shopping cart is empty.";
   }
-  
+  return message;
 }
 
 function total() {
