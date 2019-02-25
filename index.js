@@ -22,10 +22,16 @@ function viewCart() {
   var message = "";
   if(image_array.length > 0){
     message = "In your cart, you have ";
-    for (var i = 0; i < cart; i++) {
+    for (var i = 0; i < cart.length; i++) {
         var itemName = cart[i].itemName;
         var itemPrice = cart[i].itemPrice;
-        message += itemName + " at $"+itemPrice
+        message += itemName + " at $"+itemPrice;
+        if(){
+          
+        }
+        else{
+          
+        }
     }
     
   }
