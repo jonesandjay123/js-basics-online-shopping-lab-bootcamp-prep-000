@@ -45,12 +45,14 @@ function viewCart() {
 
 function total() {
   // write your code here
-  var numbers = 0;
+  var price = 0;
   
   if(cart.length > 0){
-    numbers = cart.length;
+    for (var i = 0; i < cart.length; i++) {
+        price += cart[i].itemPrice;
+    }
   }
-  return numbers;
+  return price;
 }
 
 function removeFromCart(item) {
