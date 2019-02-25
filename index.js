@@ -72,9 +72,10 @@ function removeFromCart(item) {
       return cart;
     }
     else{
-      return "";
+      return "That item is not in your cart.";
     }
   }
+  return "Cart is empty.";
 }
 
 function placeOrder(cardNumber) {
