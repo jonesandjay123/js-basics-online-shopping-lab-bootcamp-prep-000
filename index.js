@@ -68,7 +68,7 @@ function removeFromCart(item) {
         }
     }
     if(found){
-      cart.sp
+      cart.splice()
     }
     else{
       
