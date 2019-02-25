@@ -68,10 +68,11 @@ function removeFromCart(item) {
         }
     }
     if(found){
-      cart.splice()
+      cart.splice(indexOf, 1);
+      return cart;
     }
     else{
-      
+      return "";
     }
   }
 }
