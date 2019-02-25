@@ -36,7 +36,6 @@ function viewCart() {
           message += ", ";
         }
     }
-    
   }
   else{
     message = "Your shopping cart is empty.";
