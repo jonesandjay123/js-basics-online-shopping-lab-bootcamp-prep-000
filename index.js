@@ -30,7 +30,7 @@ function viewCart() {
           message += ".";
         }
         else{
-          message += ", and";
+          message += ", and ";
         }
     }
     
